@@ -1,0 +1,29 @@
+{
+  "_note": "Copied from LMS API responses. Replace with a live API fetch once endpoint URLs and read-only access are available. Prices intentionally omitted.",
+  "courses": [
+    {
+      "id": "513abba2-0a71-41e3-905b-3d838d2cbfa2",
+      "slug": "basic-foundations",
+      "title": "Basic - Foundations",
+      "level": "BASIC",
+      "status": "PUBLISHED",
+      "description_html": "<p><strong>Foundations of building with LLMs</strong><span style=\"background-color: transparent\"> · Level 01 · 23 exercises</span></p><p>The ground floor of building with LLMs. Learners build the mental model that everything else rests on: how tokens and tokenization drive cost, why models are stateless and what that costs, how context degrades, and when to reach for a reasoning model versus a fast one. It moves from cost math and prompt structure to output contracts, the basics of tool use and the agent loop, and finishes with safe practice grounding and citations, prompt-injection surfaces, least privilege, and data handling. Hands-on, one exercise per idea.</p><p><em>Topics: Tokens &amp; Cost · Prompt Structure · Output Contracts · Tool-Use Basics · Safe Data Handling</em></p>",
+      "modules": [
+        {"id": "dcaf9ba7-1175-4071-a479-2e466064be2d", "title": "Model Fundamentals", "isPublished": true},
+        {"id": "26b02bd3-8b51-4faf-87d9-fc38f8e20df0", "title": "Context Engineering", "isPublished": true},
+        {"id": "d0583a4c-1693-49b3-8565-e53d4a15df9e", "title": "AI-Assisted Development", "isPublished": true},
+        {"id": "e3d9c6bf-c74b-4cd4-8389-1bdb6ca1e5b8", "title": "Building Retrieval Concepts", "isPublished": true},
+        {"id": "2bc8be49-027a-43a4-a6f9-528efffe2953", "title": "Security", "isPublished": true}
+      ]
+    },
+    {
+      "id": "05befeea-ee22-485a-a238-8d1ff293fbee",
+      "slug": "production-engineering",
+      "title": "Production Engineering",
+      "level": null,
+      "status": "PUBLISHED",
+      "description_html": "",
+      "modules": []
+    }
+  ]
+}
